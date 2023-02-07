@@ -1,0 +1,19 @@
+{
+  "createdBy": "Compasso",
+  "developerID": "compasso",
+  "extensionID": "a6b26492-9b1f-4147-aa82-71bc00d2903b",
+  "translations": [
+    {
+      "language": "en",
+      "name": "blankWidgetDefault",
+      "description": "blankWidgetDefault"
+    },
+    {
+      "language": "pt_BR",
+      "name": "blankWidgetDefault",
+      "description": "blankWidgetDefault"
+    }
+  ],
+  "timeCreated": "2018-12-20",
+  "version": 1
+}

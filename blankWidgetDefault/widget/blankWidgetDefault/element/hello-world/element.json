@@ -1,0 +1,22 @@
+{
+  "availableToAllWidgets": false,
+  "configOptions": [],
+  "global": false,
+  "inline": false,
+  "supportedWidgetType": ["blankWidgetDefault"],
+  "tag": "hello-world",
+  "translations": [
+    {
+      "description": "Elemento Hello World H2 descrição",
+      "language": "pt_BR",
+      "title": "Elemento Hello World H2"
+    },
+    {
+      "description": "Hello World H2 Element description",
+      "language": "en",
+      "title": "Hello World H2 Element"
+    }
+  ],
+  "type": "fragment",
+  "version": 1
+}

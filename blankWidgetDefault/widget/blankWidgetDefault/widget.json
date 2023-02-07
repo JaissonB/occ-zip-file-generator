@@ -1,0 +1,24 @@
+{
+  "config": {
+	"defaultPropertyExample": "blankWidgetDefault"
+  },
+  "defaultLayout": "blankWidgetDefaultLayout",
+  "availableToAllPages": true,
+  "globalEnabled": true,
+  "i18nresources": "blankWidgetDefault",
+  "imports": [],
+  "javascript": "blankWidgetDefault",
+  "jsEditable": true,
+  "minWidth": 1,
+  "translations": [{
+    "language": "en",
+    "name": "blankWidgetDefault"
+  },
+  {
+    "language": "pt_BR",
+    "name": "blankWidgetDefault"
+  }],
+  "version": 1,
+  "widgetFamily": "blankWidgetDefault",
+  "widgetType": "blankWidgetDefault"
+}
