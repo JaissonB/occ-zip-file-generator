@@ -73,11 +73,14 @@ while True:
             print(date)
             print(root)
 
+            #cria a pasta principal com o nome do widget
+            mainDir = root / widgetName
+            mainDir.mkdir()
             #cria a pasta widget
-            widgetDir = root / 'widget'
+            widgetDir = mainDir / 'widget'
             widgetDir.mkdir()
             #cria o ext.json
-            extFile = root / 'ext.json'
+            extFile = mainDir / 'ext.json'
             extFile.touch()
             extFile.write_text(returnExtJsonContent(extensionId, widgetName, date))
             #cria pasta com nome do widget
@@ -199,10 +202,15 @@ while True:
             displayTemplateFile.touch()
             displayTemplateFile.write_text(returnDisplayTemplateContent())
             
-            with ZipFile(f"{widgetName}.zip", "w") as zip:
-                
-                zip.mkdir("widget")
-                zip.write("ext.json")
+            # with ZipFile(f"{widgetName}.zip", "w") as zip:
+            #     for folder, subfolder, filesNames in os.walk(Path(__file__) / widgetName):
+            #         for fileName in filesNames:
+            #             filepath = os.path.join(folder, fileName)
+
+            #             zip.write(filepath, basename(filepath))
+
+            # zip.mkdir("widget")
+            # zip.write("ext.json")
             
             # rmtree(widgetDir)
             # extFile.unlink()
