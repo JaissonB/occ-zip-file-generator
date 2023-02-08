@@ -67,11 +67,6 @@ while True:
             extensionId = values['extensionId']
             elementsNames = values['elements']
             date = values['date']
-            print(widgetName)
-            print(extensionId)
-            print(elementsNames)
-            print(date)
-            print(root)
 
             #cria a pasta principal com o nome do widget
             mainDir = root / widgetName
