@@ -3,18 +3,18 @@
   "configOptions": [],
   "global": false,
   "inline": false,
-  "supportedWidgetType": ["blankWidgetDefault"],
-  "tag": "hello-world",
+  "supportedWidgetType": ["widgetName"],
+  "tag": "elementName",
   "translations": [
     {
-      "description": "Elemento Hello World H2 descrição",
+      "description": "elementName",
       "language": "pt_BR",
-      "title": "Elemento Hello World H2"
+      "title": "elementName"
     },
     {
-      "description": "Hello World H2 Element description",
+      "description": "elementName",
       "language": "en",
-      "title": "Hello World H2 Element"
+      "title": "elementName"
     }
   ],
   "type": "fragment",
