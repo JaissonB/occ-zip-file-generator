@@ -1,5 +1,8 @@
 # occ-zip-file-generator
 
+<h3>It is only do double click on <strong> >> interface.exe << </strong> into the dist folder.</h3>
+
+If this do not work, try the steps bellow.
 Making run:
 
 - You need Python installed, https://www.python.org/downloads/
