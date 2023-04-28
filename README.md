@@ -16,3 +16,16 @@ Making run:
 ```
   python interface.py
 ```
+
+##
+<h2>Generating my own .exe file</h2>
+
+- Install pyinstaller with pip
+```
+  pip install pyinstaller
+```
+
+- Execute the follow command
+```
+  pyinstaller --onefile -w interface.py
+```
